@@ -58,16 +58,6 @@ models.py: Django models representing the database schema.
 urls.py: URL configuration for the app.
 views.py: View functions handling user requests and rendering templates.
 
-## Some clips
-![Django Backend Development Assignment - anu12104565@gmail com - Gmail - Google Chrome 06-12-2023 10_38_37](https://github.com/Anuragsingh2003/blogs_news_webapp_iit_bombay/assets/117331687/bfb572e7-afde-4643-91e9-c4823a87d932)
-
-![Django Backend Development Assignment - anu12104565@gmail com - Gmail - Google Chrome 06-12-2023 10_39_25](https://github.com/Anuragsingh2003/blogs_news_webapp_iit_bombay/assets/117331687/ee30ef5f-fa75-4547-9da2-7bf1ad95e819)
-
-
-![Django Backend Development Assignment - anu12104565@gmail com - Gmail - Google Chrome 06-12-2023 10_39_13](https://github.com/Anuragsingh2003/blogs_news_webapp_iit_bombay/assets/117331687/5f24b771-bf86-4c0e-b200-c9ce8031e2a0)
-
-#admin--
-![Django Backend Development Assignment - anu12104565@gmail com - Gmail - Google Chrome 06-12-2023 10_41_28](https://github.com/Anuragsingh2003/blogs_news_webapp_iit_bombay/assets/117331687/85a0fd21-aa67-4fed-a14f-a96d577be2b2)
 
 Explain how users can use your project. Include examples or screenshots if possible.
 
