@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<style>
+  body{
+    background: antiquewhite;
+
+  }
+
+</style>
+
+    <div class="container mt-5">
+        <h1 class="text-center">Social Blogs</h1>
+        {% if AllBlogs %}
+            <ul class="list-group mt-4">
+                {% for blog in AllBlogs %}
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <div>
+                            <h4 class="mb-0">{{ blog.title }}</h4>
+                            <p class="mb-0">Author: {{ blog.author }}</p>
+                        </div>
+                        <div class="ml-auto">
+                            <p class="text-muted">Created at: {{ blog.published_at|date:'Y-m-d' }} {{ blog.published_at|time:'H:i' }}</p>
+                            <a href="{% url 'blog_detail' blog.id %}" class="btn btn-sm btn-info">Details</a>
+                        </div>
+                    </li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p class="mt-4">There are no blogs created by users.</p>
+            <a href="{% url 'blog_create' %}" class="btn btn-primary">Create Your Blog</a>
+        {% endif %}
+    </div>
+{% endblock %}

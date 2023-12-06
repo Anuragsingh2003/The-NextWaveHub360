@@ -1,0 +1,8 @@
+
+<form method="POST" enctype="multipart/form-data" id="edit-task-form"> 
+    {% csrf_token %}
+    <!--using powers of models through forms's models-->
+    {{ blog.as_p }} <!-- coming or injected field in obj form and from views edit_task--> 
+    <button type="submit">Save</button>
+  </form>
+
