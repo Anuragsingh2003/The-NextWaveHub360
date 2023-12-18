@@ -1,5 +1,4 @@
-# blogs_news_webapp_iit_bombay
-
+# The NextWaveHub360
 
 A short description of your project.
 
